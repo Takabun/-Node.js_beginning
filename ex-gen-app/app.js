@@ -80,7 +80,3 @@ var session_opt = {
   cookie: { maxAge: 60 * 60 * 1000 }
 };
 app.use(session(session_opt));
-
-
-
-// Gitリポジトリ連携できてるかな
